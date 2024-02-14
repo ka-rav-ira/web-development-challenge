@@ -41,3 +41,15 @@ body{
   text-align: start;
   color: rgb(00, 96, 83);
 }
+
+
+ 
+ol{
+  list-style: none;
+  list-style: square;
+ /* Latest Apply rule wins in case of Cascading Style sheets */
+}  
+
+li{
+  list-style: none;
+}
