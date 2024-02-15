@@ -8,22 +8,33 @@ a{
     font-family: 'Oswald', sans-serif;
     border-radius: 4px;
     font-size:24px;
-    padding: 10px;
+    padding: 10px 48px;
     border: 1px rgb(167, 1, 78);
 }
 
 body{
-    background-color: rgba(232, 157, 187, 0.899);
+    background-color: rgba(249, 199, 163, 0.899);
     text-align: center;
+}
+
+header{
+    margin-bottom: 64px;
 }
 
 h1{
     font-size: 48px;
     color:rgb(71,62,62);
+    margin: 12px 0;
+}
+#description{
+    margin-bottom: 36px;
 }
 
 ol{
     list-style: none;
+    width: 500px;
+    margin:36px auto 0 auto ;
+    padding: 0;
 }
 
 a:hover{
@@ -33,9 +44,30 @@ a:hover{
 }
 
 li{
-    background-color: rgb(8, 83, 14);
+    background-color: rgb(243, 140, 30);
     border-radius: 6px;
     color: white;
     margin: 32px;
+    padding: 16px;
 }
  
+p{
+    font-family: 'Fira Sans',sans-serif;
+    margin-bottom: 36px;
+}
+
+h2{
+    color: rgb(78,13,5);
+    font-family: 'Oswald',sans-serif;
+  } 
+
+  main p{
+    margin: 12px;
+    color: rgb(71,29,22);
+  }
+
+.highlight-color{  
+    background-color: rgb(201, 115, 23);
+}
+
+

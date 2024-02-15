@@ -8,6 +8,13 @@ h1 {
   text-align: center;
   color: rgb(83, 75, 75);
 }
+
+
+
+header p{
+  margin-bottom: 36px;
+}
+
 a {
   color: rgb(167, 1, 78);
   text-decoration: none;
@@ -33,7 +40,7 @@ img{
 }
 
 body{
-  background-color: rgb(239, 164, 164);
+  background-color: rgb(249, 199, 163, 0.899);
   text-align: center;
 }
 
@@ -52,4 +59,4 @@ ol{
 
 li{
   list-style: none;
-}
+} 
