@@ -2,21 +2,36 @@ p {
   font-family: "Fira Sans", sans-serif;
   text-align: center;
   color: rgb(228, 186, 186);
+  font-size: 24px;
 }
 h1 {
   font-family: "Oswald", sans-serif;
   text-align: center;
   color: rgb(83, 75, 75);
+  font-size: 30px;
+  color: rgb(31, 25, 25);
 }
 
+span{
+  color: rgb( 66, 2, 2);
+}
 
+main {
+  width: 800px;
+  margin: 200px auto 72px auto;
+  background-color: rgb(219, 108, 94);
+  padding: 24px;
+  border: 5px solid rgb(44, 44, 44);
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgb(0, 0, 0.3);
+}
 
-header p{
+header p {
   margin-bottom: 36px;
 }
 
 a {
-  color: rgb(167, 1, 78);
+  color: rgb(73, 29, 50);
   text-decoration: none;
 }
 a:hover {
@@ -24,39 +39,39 @@ a:hover {
 }
 
 #todays-challenge {
-  color: rgb(170, 96, 83);
+  color: rgb(75, 59, 59);
   font-weight: bold;
   font-size: 52px;
 }
 
-img{
-  width: 200px ;
+img {
+  width: 200px;
   height: 200px;
   border-radius: 100px;
+  border: 5px solid rgb(44, 44, 44);
+  margin-top: -134px;
 }
 
-#anchor{
-  color:rgb(00, 96, 83);;
+#anchor {
+  color: rgb(00, 96, 83);
 }
 
-body{
+body {
   background-color: rgb(249, 199, 163, 0.899);
   text-align: center;
 }
 
-#pg{
+#pg {
   text-align: start;
   color: rgb(00, 96, 83);
 }
 
-
- 
-ol{
+ol {
   list-style: none;
   list-style: square;
- /* Latest Apply rule wins in case of Cascading Style sheets */
-}  
+  /* Latest Apply rule wins in case of Cascading Style sheets */
+}
 
-li{
+li {
   list-style: none;
-} 
+}
